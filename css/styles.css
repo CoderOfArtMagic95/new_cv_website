@@ -1,0 +1,20 @@
+body {
+  background-color: #5FDDE5;
+  /*changes all the margins of the body tag */
+  margin: 0;
+}
+/*Sets the h1 elements top margin to 0*/
+h1{
+  margin-top: 0px;
+}
+
+img{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  height: 250px;
+}
+.center {
+  background-color: #C3F584;
+  text-align: center;
+  height: 500px;
+}
