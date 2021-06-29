@@ -1,7 +1,10 @@
 body {
   background-color: #BFE9DB;
   color: blue;
-  font-family:sans-serif;
+  /*If you don't want to use the default san-serif font, etc. do this*/
+  /* font-family: verdana, sans-serif; */
+  /*backup fonts*/
+  font-family: 'Merriweather', serif;
   height: 500px;
   /*changes all the margins of the body tag */
   margin: 0;
@@ -11,20 +14,30 @@ body {
 /*Sets the h1 elements top margin to 0*/
 h1 {
   margin-top: 0px;
+  font-family: 'Sacramento', cursive;
 }
 
-.top-cloud{
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.top-cloud {
   position: absolute;
   right: 400px;
   top: 50px;
 }
-.bottom-cloud{
+
+.bottom-cloud {
   position: absolute;
   left: 400px;
   bottom: 300px;
 }
 
-.mountain{
+.mountain {
   height: 400px;
 }
 
