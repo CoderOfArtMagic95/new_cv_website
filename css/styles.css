@@ -41,6 +41,10 @@ h3 {
   height: 400px;
 }
 
+.photo{
+  height: 200px;
+}
+
 .top-div {
   background-color: #6AC1B8;
   position: relative;
