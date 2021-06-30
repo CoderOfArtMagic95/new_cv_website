@@ -45,6 +45,11 @@ h3 {
   height: 200px;
 }
 
+.computer{
+  /*makes the image have a circular shape border... the image is circular instead of being a box*/
+  border-radius: 100%;
+}
+
 .top-div {
   background-color: #6AC1B8;
   position: relative;
@@ -52,7 +57,7 @@ h3 {
 }
 
 .middle-container {
-  background-color: #C0FFB3;
+  /* background-color: #C0FFB3;
   text-align: center;
   /*height: 200px;
   margin-left: 150px;
@@ -61,7 +66,7 @@ h3 {
 }
 
 .bottom-container {
-  background-color: #52DE97;
+  /*background-color: #52DE97;
   /*height: 200px;
   margin-left: 150px;
   padding-bottom: 40px;
