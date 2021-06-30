@@ -7,8 +7,10 @@ body {
   font-family: 'Merriweather', serif;
   height: 500px;
   /*changes all the margins of the body tag */
+  font-size: 16px;
   margin: 0;
   text-align: center;
+  line-height: 2;
 }
 
 /*Sets the h1 elements top margin to 0*/
@@ -16,22 +18,31 @@ h1 {
   margin: 50px auto 0px auto;
   color: #66BFBF;
   font-family: 'Sacramento', cursive;
-  font-size: 5.625rem; /*root em ignore parent element font sizes*/
-                      /* 100% == 16px ... 90px /16 == 562.5%*/
-                     /* 1em == 16px*/
+  font-size: 5.625rem;
+  /*root em ignore parent element font sizes*/
+  /* 100% == 16px ... 90px /16 == 562.5%*/
+  /* 1em == 16px*/
+  line-height: 2;
+}
+
+#font-weight-top {
+  font-weight: normal;
 }
 
 h2 {
   color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.5rem; /*equivalent to 40 px ... 40/ 16 == 2.5 rem*/
+  font-size: 2.5rem;
+  /*equivalent to 40 px ... 40/ 16 == 2.5 rem*/
 }
 
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
 }
-a{
+
+a {
   color: #11999E;
 }
 
@@ -51,13 +62,37 @@ a{
   height: 400px;
 }
 
-.photo{
-  height: 200px;
+.photo {
+  height: 250px;
 }
 
-.computer{
+.tools {
+  width: 30%;
+  float: right;
+  margin-left: 20px;
+}
+
+.computer {
   /*makes the image have a circular shape border... the image is circular instead of being a box*/
   border-radius: 100%;
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+
+.heart {
+  /*makes the image have a circular shape border... the image is circular instead of being a box*/
+  width: 35%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  font-size: 16px;
+  line-height: 2;
 }
 
 .top-div {
