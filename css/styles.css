@@ -1,6 +1,6 @@
 body {
   background-color: #BFE9DB;
-  color: blue;
+  color:  #020438;
   /*If you don't want to use the default san-serif font, etc. do this*/
   /* font-family: verdana, sans-serif; */
   /*backup fonts*/
@@ -16,7 +16,7 @@ body {
 /*Sets the h1 elements top margin to 0*/
 h1 {
   margin: 50px auto 0px auto;
-  color: #66BFBF;
+  color: #020438;
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   /*root em ignore parent element font sizes*/
@@ -26,26 +26,35 @@ h1 {
 }
 
 #font-weight-top {
-  font-weight:bolder;
+  font-weight: bolder;
 }
 
 h2 {
-  color: #66BFBF;
+  color: #284184;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
   /*equivalent to 40 px ... 40/ 16 == 2.5 rem*/
 }
 
 h3 {
-  color: #11999E;
+  color: #284184;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
+  font-weight: 400;
 }
 
 a {
-  color: #11999E;
+  color: #005792;
 }
 
+/*
+.code-skill-description{
+ /* Anti- float
+  clear: left;
+}
+
+.art-skill-description{
+  clear: right;
+} */
 .top-cloud {
   position: absolute;
   right: 400px;
@@ -73,18 +82,17 @@ a {
 }
 
 .computer {
-  /*makes the image have a circular shape border... the image is circular instead of being a box*/
+  /*makes the image have a circular shape border... the image is circular instead of being a box */
   border-radius: 100%;
-  width: 35%;
+  width: 25%;
   float: left;
   margin-right: 30px;
 }
 
 .heart {
-  /*makes the image have a circular shape border... the image is circular instead of being a box*/
-  width: 35%;
-  float: right;
-  margin-left: 30px;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
 }
 
 .skill-row {
@@ -92,7 +100,10 @@ a {
   margin: 100px auto;
   text-align: left;
   font-size: 16px;
-  line-height: 2;
+}
+.skill-text {
+  font-size: 16px;
+  line-height: normal;
 }
 
 .top-div {
@@ -102,6 +113,7 @@ a {
 }
 
 .middle-container {
+  line-height: 2;
   /* background-color: #C0FFB3;
   text-align: center;
   /*height: 200px;
