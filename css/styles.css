@@ -26,7 +26,7 @@ h1 {
 }
 
 #font-weight-top {
-  font-weight: normal;
+  font-weight:bolder;
 }
 
 h2 {
@@ -39,7 +39,7 @@ h2 {
 h3 {
   color: #11999E;
   font-family: 'Montserrat', sans-serif;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 a {
