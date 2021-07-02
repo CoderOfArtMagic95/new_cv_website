@@ -88,7 +88,11 @@ hr{
   float: right;
   margin-left: 20px;
 }
+#para-width{
+  margin: auto 300px;
+  text-align: center;
 
+}
 .computer {
   /*makes the image have a circular shape border... the image is circular instead of being a box */
   border-radius: 100%;
@@ -133,6 +137,8 @@ hr{
 .footer-link{
   color: #11999E;
   height: 400px;
+  text-decoration: none;
+  margin: auto 10px;
 }
 
 .bottom-container {
