@@ -45,7 +45,7 @@ a {
   color: #005792;
 }
 
-hr{
+hr {
   border-style: none;
   border-color: #EAF6F6;
   border-top-style: dotted;
@@ -89,11 +89,23 @@ hr{
   float: right;
   margin-left: 20px;
 }
-#para-width{
+
+#copyright {
+  color: #EAF6F6;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+#para-width {
   margin: auto 300px;
   text-align: center;
-
 }
+
+.links-padding-footer {
+  margin-top: 5px;
+  margin-bottom: -40px;
+}
+
 .computer {
   /*makes the image have a circular shape border... the image is circular instead of being a box */
   border-radius: 100%;
@@ -135,7 +147,7 @@ hr{
   width: 70%; */
 }
 
-.footer-link{
+.footer-link {
   color: #11999E;
   height: 400px;
   text-decoration: none;
@@ -144,6 +156,7 @@ hr{
 
 .bottom-container {
   background-color: #66BFBF;
+  margin-bottom: 150px;
   /*height: 200px;
   margin-left: 150px;
   padding-bottom: 40px;
@@ -151,45 +164,46 @@ hr{
   text-align: center;
   width: 70%; */
 }
+
 .button {
-   background: #3AC4C5;
-   background-image: -webkit-linear-gradient(top, #3AC4C5, #11999E);
-   background-image: -moz-linear-gradient(top, #3AC4C5, #11999E);
-   background-image: -ms-linear-gradient(top, #3AC4C5, #11999E);
-   background-image: -o-linear-gradient(top, #3AC4C5, #11999E);
-   background-image: -webkit-gradient(to bottom, #3AC4C5, #11999E);
-   -webkit-border-radius: 7px;
-   -moz-border-radius: 7px;
-   border-radius: 7px;
-   height: 5px;
-   line-height: 5px;
-   color: #FFFFFF;
-   font-family: Helvetica;
-   width: 140px;
-   font-size: 20px;
-   font-weight: 400;
-   padding: 20px;
-   -webkit-box-shadow: 0 0 0 0 #000000;
-   -moz-box-shadow: 0 0 0 0 #000000;
-   box-shadow: 0 0 0 0 #000000;
-   text-shadow: 0 0 0 #000000;
-   border: solid #11999E 1px;
-   text-decoration: none;
-   display: inline-block;
-   cursor: pointer;
-   text-align: center;
+  background: #3AC4C5;
+  background-image: -webkit-linear-gradient(top, #3AC4C5, #11999E);
+  background-image: -moz-linear-gradient(top, #3AC4C5, #11999E);
+  background-image: -ms-linear-gradient(top, #3AC4C5, #11999E);
+  background-image: -o-linear-gradient(top, #3AC4C5, #11999E);
+  background-image: -webkit-gradient(to bottom, #3AC4C5, #11999E);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  height: 5px;
+  line-height: 5px;
+  color: #FFFFFF;
+  font-family: Helvetica;
+  width: 140px;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+  -webkit-box-shadow: 0 0 0 0 #000000;
+  -moz-box-shadow: 0 0 0 0 #000000;
+  box-shadow: 0 0 0 0 #000000;
+  text-shadow: 0 0 0 #000000;
+  border: solid #11999E 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
 }
 
 .button:hover {
-   border: solid #337FED 1px;
-   background: #1E62D0;
-   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-   -webkit-border-radius: 7px;
-   -moz-border-radius: 7px;
-   border-radius: 7px;
-   text-decoration: none;
+  border: solid #337FED 1px;
+  background: #1E62D0;
+  background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+  background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+  -webkit-border-radius: 7px;
+  -moz-border-radius: 7px;
+  border-radius: 7px;
+  text-decoration: none;
 }
