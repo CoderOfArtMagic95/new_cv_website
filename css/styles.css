@@ -50,7 +50,7 @@ hr {
   border-color: #EAF6F6;
   border-top-style: dotted;
   border-width: 5px;
-  margin: 50px auto;
+  margin: 100px auto;
   width: 5%
 }
 
@@ -65,13 +65,13 @@ hr {
 } */
 .top-cloud {
   position: absolute;
-  right: 400px;
+  right: 200px;
   top: 50px;
 }
 
 .bottom-cloud {
   position: absolute;
-  left: 400px;
+  left: 200px;
   bottom: 300px;
 }
 
