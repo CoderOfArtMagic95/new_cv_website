@@ -1,3 +1,8 @@
+@media screen and (max-width: 414px){
+  .adjust-dimensions{
+    margin-left: 100px;
+  }
+}
 body {
   background-color: #BFE9DB;
   color: #40514E;
