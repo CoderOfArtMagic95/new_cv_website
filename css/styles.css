@@ -1,5 +1,6 @@
 body {
   background-color: #BFE9DB;
+  color: #40514E;
   /*If you don't want to use the default san-serif font, etc. do this*/
   /* font-family: verdana, sans-serif; */
   /*backup fonts*/
@@ -9,9 +10,10 @@ body {
   font-size: 16px;
   margin: auto;
   text-align: center;
+}
+p{
   line-height: 2;
 }
-
 /*Sets the h1 elements top margin to 0*/
 h1 {
   margin: 50px auto 0px auto;
@@ -47,11 +49,10 @@ a {
 
 hr {
   border-style: none;
-  border-color: #EAF6F6;
-  border-top-style: dotted;
-  border-width: 5px;
+  border: dotted #EAF6F6 5px;
+  border-bottom: none;
   margin: 100px auto;
-  width: 5%
+  width: 4%
 }
 
 /*
@@ -97,8 +98,12 @@ hr {
 }
 
 #para-width {
-  margin: auto 300px;
+  margin: auto;
   text-align: center;
+  width: 40%;
+}
+#interests-end{
+  margin-left: 210px;
 }
 
 .links-padding-footer {
@@ -132,6 +137,10 @@ hr {
   line-height: normal;
 }
 
+.contact-me{
+  width: 40%;
+  margin: auto;
+}
 .top-div {
   background-color: #E4F9F5;
   position: relative;
