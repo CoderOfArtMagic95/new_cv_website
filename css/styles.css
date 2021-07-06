@@ -1,8 +1,12 @@
-@media screen and (max-width: 414px){
-  .adjust-dimensions{
-    margin-left: 100px;
+@media screen and (min-width: 320px) and (max-width:428px){
+  #adjust-dimensions{
+    margin-left: 150px;
+  }
+  #adjust-dimensions-2{
+    margin-left: 150px;
   }
 }
+
 body {
   background-color: #BFE9DB;
   color: #40514E;
@@ -107,9 +111,7 @@ hr {
   text-align: center;
   width: 40%;
 }
-#interests-end{
-  margin-left: 210px;
-}
+
 
 .links-padding-footer {
   margin-top: 5px;
@@ -125,7 +127,7 @@ hr {
 }
 
 .heart {
-  width: 25%;
+  width: 35%;
   float: left;
   margin-right: 30px;
 }
