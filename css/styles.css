@@ -1,3 +1,11 @@
+a {
+  color: #005792;
+  text-decoration: none;
+}
+a:hover {
+    color: red;
+    /*color: :#EAF6F6;*/
+}
 body {
   background-color: #BFE9DB;
   color: #40514E;
@@ -11,10 +19,6 @@ body {
   margin: auto;
   text-align: center;
 }
-
-p{
-  line-height: 2;
-}
 /*Sets the h1 elements top margin to 0*/
 h1 {
   margin: 50px auto 0px auto;
@@ -25,16 +29,6 @@ h1 {
   /* 100% == 16px ... 90px /16 == 562.5%*/
   /* 1em == 16px*/
   line-height: 2;
-}
-#adjust-dimensions{
-  margin-left: 150px;
-}
-#adjust-dimensions-2{
-  margin-left: 150px;
-}
-
-#font-weight-top {
-  font-weight: bolder;
 }
 
 h2 {
@@ -49,27 +43,37 @@ h3 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
 }
-
-a {
-  color: #005792;
-  text-decoration: none;
-}
-a:hover {
-    color: red;
-    /*color: :#EAF6F6;*/
-}
-
-.footer-link:hover {
-    color: white;
-    /*color: :#EAF6F6;*/
-}
-
 hr {
   border-style: none;
   border: dotted #EAF6F6 5px;
   border-bottom: none;
   margin: 100px auto;
   width: 4%
+}
+
+p{
+  line-height: 2;
+}
+
+#adjust-dimensions{
+  margin-left: 150px;
+}
+#adjust-dimensions-2{
+  margin-left: 150px;
+}
+#copyright {
+  color: #EAF6F6;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+#font-weight-top {
+  font-weight: bolder;
+}
+
+#para-width {
+  margin: auto;
+  text-align: center;
+  width: 40%;
 }
 
 /*
@@ -81,101 +85,11 @@ hr {
 .art-skill-description{
   clear: right;
 } */
-.top-cloud {
-  position: absolute;
-  right: 200px;
-  top: 50px;
-}
 
 .bottom-cloud {
   position: absolute;
   left: 200px;
   bottom: 300px;
-}
-
-.mountain {
-  height: 400px;
-  bottom: -10px;
-}
-
-.photo {
-  height: 250px;
-}
-
-.tools {
-  width: 30%;
-  float: right;
-  margin-left: 20px;
-}
-
-#copyright {
-  color: #EAF6F6;
-  padding-top: 20px;
-  padding-bottom: 40px;
-}
-
-#para-width {
-  margin: auto;
-  text-align: center;
-  width: 40%;
-}
-
-
-.links-padding-footer {
-  margin-top: 5px;
-  margin-bottom: -40px;
-}
-
-.computer {
-  /*makes the image have a circular shape border... the image is circular instead of being a box */
-  border-radius: 100%;
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-
-.heart {
-  width: 35%;
-  float: left;
-  margin-right: 30px;
-}
-
-.skill-row {
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  font-size: 16px;
-}
-
-.skill-text {
-  font-size: 16px;
-  line-height: normal;
-}
-
-.contact-me{
-  width: 40%;
-  margin: auto;
-}
-.top-div {
-  background-color: #E4F9F5;
-  position: relative;
-  padding-top: 100px;
-}
-
-.middle-container {
-  /* background-color: #C0FFB3;
-  text-align: center;
-  /*height: 200px;
-  margin-left: 150px;
-  padding: 20px;
-  width: 70%; */
-}
-
-.footer-link {
-  color: #11999E;
-  height: 400px;
-  text-decoration: none;
-  margin: auto 10px;
 }
 
 .bottom-container {
@@ -230,4 +144,85 @@ hr {
   -moz-border-radius: 7px;
   border-radius: 7px;
   text-decoration: none;
+}
+
+.contact-me{
+  width: 40%;
+  margin: auto;
+}
+
+.computer {
+  /*makes the image have a circular shape border... the image is circular instead of being a box */
+  border-radius: 100%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: #11999E;
+  height: 400px;
+  text-decoration: none;
+  margin: auto 10px;
+}
+
+.footer-link:hover {
+    color: white;
+    /*color: :#EAF6F6;*/
+}
+
+.heart {
+  width: 35%;
+  float: left;
+  margin-right: 30px;
+}
+.links-padding-footer {
+  margin-top: 5px;
+  margin-bottom: -40px;
+}
+
+.middle-container {
+  /* background-color: #C0FFB3;
+  text-align: center;
+  /*height: 200px;
+  margin-left: 150px;
+  padding: 20px;
+  width: 70%; */
+}
+.mountain {
+  height: 400px;
+  bottom: -10px;
+}
+
+.photo {
+  height: 250px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  font-size: 16px;
+}
+
+.skill-text {
+  font-size: 16px;
+  line-height: normal;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 200px;
+  top: 50px;
+}
+
+.top-div {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+}
+.tools {
+  width: 30%;
+  float: right;
+  margin-left: 20px;
 }
