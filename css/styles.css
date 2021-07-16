@@ -63,8 +63,8 @@ p{
 }
 #copyright {
   color: #EAF6F6;
-  padding-top: 20px;
-  padding-bottom: 40px;
+  font-size: 13px;
+  padding: 20px 0px;
 }
 #font-weight-top {
   font-weight: bolder;
@@ -95,6 +95,8 @@ p{
 .bottom-container {
   background-color: #66BFBF;
   margin-bottom: 150px;
+  padding-bottom: 40px;
+  padding-top: 20px;
   /*height: 200px;
   margin-left: 150px;
   padding-bottom: 40px;
