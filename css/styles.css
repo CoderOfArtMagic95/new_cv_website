@@ -1,9 +1,3 @@
-@media screen and (min-width: 414px){
-  #adjust-dimensions-2{
-    margin-left: 150px;
-  }
-}
-
 body {
   background-color: #BFE9DB;
   color: #40514E;
@@ -58,6 +52,15 @@ h3 {
 
 a {
   color: #005792;
+}
+a:hover {
+    color: red;
+    /*color: :#EAF6F6;*/
+}
+
+.footer-link:hover {
+    color: white;
+    /*color: :#EAF6F6;*/
 }
 
 hr {
