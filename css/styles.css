@@ -64,7 +64,8 @@ p{
 #copyright {
   color: #EAF6F6;
   font-size: 13px;
-  padding: 20px 0px;
+  padding-top: 30px;
+  padding-bottom: 20px;
 }
 #font-weight-top {
   font-weight: bolder;
